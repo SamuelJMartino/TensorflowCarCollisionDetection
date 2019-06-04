@@ -1,7 +1,8 @@
-# libtorch-yolov3
-A Libtorch implementation of the YOLO v3 object detection algorithm, written with pure C++. It's fast, easy to be integrated to your production, and CPU and GPU are both supported. Enjoy ~
+# YOLO ECON PROJECT
+PROGRAMMED BY:SAM MARTINO
+A Libtorch implementation of the YOLO v3 object detection algorithm, written with pure C++.  CPU and GPU are both supported.
 
-This project is inspired by the [pytorch version](https://github.com/ayooshkathuria/pytorch-yolo-v3), I rewritten it with C++.
+
 
 ## Requirements
 1. LibTorch v1.0.0
@@ -16,13 +17,6 @@ This project is inspired by the [pytorch version](https://github.com/ayooshkathu
 
 
 ```
-mkdir build && cd build
-cmake3 -DCMAKE_PREFIX_PATH="your libtorch path" ..
-
-# if there are multi versions of gcc, then tell cmake which one your want to use, e.g.:
-cmake3 -DCMAKE_PREFIX_PATH="your libtorch path" -DCMAKE_C_COMPILER=/usr/local/bin/gcc -DCMAKE_CXX_COMPILER=/usr/local/bin/g++ ..
-```
-
 
 ## Running the detector
 
